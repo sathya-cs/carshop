@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarShop</title>
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!--css link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--font awesome--> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+     <!--title-->
+     <section id="title">
+        <div class="container-fluid">
+ <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="#">CarShop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Vehicles
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://in.images.search.yahoo.com/search/images;_ylt=AwrKCVnwLChjhSY1XoHmHAx.?p=hyundai+car+images&vm=r&type=E211IN826G0&fr=mcafee&fr2=p%3As%2Cv%3Av%2Cm%3Apivot" target="_blank">Hyundai</a>
+                <div class="nav-item dropdown drop-down2">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Honda
+                   </a>
+                   <div class="dropdown-menu sub-menu2" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="https://in.images.search.yahoo.com/search/images;_ylt=AwrKDxMhLShjF1YbKK.9HAx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcyMzAwNQRfcgMyBGFjdG4DY2xrBGNzcmNwdmlkA0JaeVFnakV5Tnk0b2I1N2dZby5VbEFxVE1qUXdNUUFBQUFES3E4VnEEZnIDbWNhZmVlBGZyMgNzYS1ncARncHJpZAMzNm1jUDRPelJyaXp3T3NXdm50bi5BBG5fc3VnZwMwBG9yaWdpbgNpbi5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAwRxc3RybAMzOQRxdWVyeQNob25kYSUyMCUyMGFjY29yZCUyMFRDLVAlMjBjYXIlMjBpbWFnZXMEdF9zdG1wAzE2NjM1Nzc1MTM-?p=honda++accord+TC-P+car+images&fr=mcafee&fr2=sb-top-in.images.search&ei=UTF-8&x=wrt&type=E211IN826G0&vm=r" target="_blank">Honda Accord TC-p</a>
+                      <a class="dropdown-item" href="https://in.images.search.yahoo.com/search/images;_ylt=AwrKDxOqLShjmPcbz_29HAx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcyMzAwNQRfcgMyBGFjdG4DY2xrBGNzcmNwdmlkA0RYMkg5ekV5Tnk0b2I1N2dZby5VbEFaYU1qUXdNUUFBQUFEU3pKa2wEZnIDbWNhZmVlBGZyMgNzYS1ncARncHJpZANXTTlRdDQwSFQwYTVCTEEyanZBZFhBBG5fc3VnZwMwBG9yaWdpbgNpbi5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAwRxc3RybAMyNwRxdWVyeQNob25kYSUyMFdSLVYlMjBjYXIlMjBpbWFnZXMEdF9zdG1wAzE2NjM1Nzc2MzY-?p=honda+WR-V+car+images&fr=mcafee&fr2=sb-top-in.images.search&ei=UTF-8&x=wrt&type=E211IN826G0&vm=r" target="_blank">Honda WR-V</a>                                                         
+                    </div>
+                </div>
+             </div>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#footer" >Contact</a>
+          </li>
+       </ul>
+    </div>
+ </nav> 
+      <div class="row"> 
+        <div class="col-lg-6 col-md-12">
+          <h1 class="h01">Find your new and dream cars nearby.</h1>
+          <button class="btn  btn-lg btn-info login-button" type="button" ><i class="fa-solid fa-right-to-bracket"></i> Login</button> 
+        </div>
+        <!--login form-->
+        <div class="login-form-container">
+          <span id="close-login-form" class="fas fa-times"></span>
+          <form action="">
+            <h2>user login</h2>
+            <input type="email" name="email" placeholder="Enter Email Here" class="input">
+            <input type="password" name="" placeholder="Enter Password Here" class="input">
+            <button class="btnn"><a href="#">Login</a></button>
+            <p class="link">Don't have an account<br>
+            <a href="#">Sign up </a> here</a></p>
+            <p class="liw">Log in with</p>
+            <div class="icons">
+             <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=facebook"><i class="fa-brands fa-facebook"></i></a>
+             <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=twitter"><i class="fa-brands fa-twitter"></i></a>
+             <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=instagram"><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=gmail"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </form>
+        </div>
+           <div class="col-lg-6 col-md-12">
+             <img class="img-01" src="images/car-6.png" alt="car.png">
+           </div>
+         </div>
+        </div>
+      </section>
+<!-- vehicles -->
+<section id="vehicles">
+  <div class="container">
+    <h2 class="heading"> our popular vehicles</h2>   
+    <div class="table-responsive-lg">  
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Engine</th>
+          <th>Transmission</th>
+          <th>Speed</th>
+          <th>Cost</th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img class="img-02" src="images/car-7.png">
+            <p>Hyundai Sonata G2.5</p>
+          </td>
+          <td>
+            <p>2.5L,4-cylinder</p>
+            <p>Naturally aspirated</p>
+            <p>port injection</p>
+          </td>
+          <td>
+            <p>Automatic</p>
+            <p>6-speed</p>
+            <p>Front wheel drive</p>
+          </td>
+          <td>
+            <p>0-70 mph in</p>
+            <p>7 seconds</p>
+          </td>
+          <td>$60,000</td> 
+        </tr>
+        <tr>
+          <td>
+            <img class="img-02" src="images/car-3.png">
+            <p>Honda WR-V</p>
+          </td>
+          <td>
+            <p>2.5L,4-cylinder</p>
+            <p>Naturally aspirated</p>
+            <p>port injection</p>
+          </td>
+          <td>
+            <p>Automatic</p>
+            <p>CVT</p>
+            <p>Front wheel drive</p>
+          </td>
+          <td>
+            <p>0-85 mph in</p>
+            <p>(top speed)</p>
+          </td>
+          <td>$70,000</td> 
+        </tr>
+        <tr>
+          <td>
+            <img class="img-02" src="images/car-4.png">
+            <p>Honda Accord TC-P</p>
+          </td>
+          <td>
+            <p>1.5L,4-cylinder</p>
+            <p>Naturally aspirated</p>
+            <p>Direct injection</p>
+          </td>
+          <td>
+            <p>Automatic</p>
+            <p>6-speed</p>
+            <p>Front wheel drive</p>
+          </td>
+          <td>
+            <p>0-65mph in</p>
+            <p>8 seconds</p>
+          </td>
+          <td>$45,000</td>            
+        </tr>
+        <tr>
+          <td>
+            <img class="img-02" src="images/car-5.png">
+            <p>Nissan Leaf</p>
+          </td>
+          <td>
+            <p>1.5L,4-cylinder</p>
+            <p>Naturally aspirated</p>
+            <p>port injection</p>
+          </td>
+          <td>
+            <p>Automatic</p>
+            <p>CVT</p>
+            <p>Front wheel drive</p>
+          </td>
+          <td>
+            <p>0-60 mph in</p>
+            <p>10 seconds</p>
+          </td>
+          <td>$58,000</td> 
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+<!--our services-->
+<section class="services" id="services">
+  <h2 class="heading">our services</h2>
+   <div class=row>
+      <div class="col-lg-4 col-md-6 service-col">
+        <div class="card">
+          <div class="card-header">
+           <i class="fas fa-car"></i> 
+           <h3>car selling</h3>
+          </div>
+          <div class="card-body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>         
+            <button type="button" class="btn btn-lg btn-dark btn-outline-success read1">read more</button>          
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-6 service-col">
+          <div class="card">
+            <div class="card-header">
+             <i class="fas fa-tools"></i> 
+             <h3>parts repair</h3>
+            </div>
+            <div class="card-body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>         
+              <button type="button" class="btn btn-lg btn-dark btn-outline-success read2">read more</button>          
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-12 service-col">
+            <div class="card">
+              <div class="card-header">
+               <i class="fas fa-car-battery"></i> 
+               <h3>battery replace</h3>
+              </div>
+              <div class="card-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>         
+                <button type="button" class="btn btn-lg btn-dark btn-outline-success read3" disabled>read more</button>          
+              </div>
+            </div>
+          </div>
+  </div>
+</section>
+<!-- buy section-->
+<section id="buy">
+  <h3>Buy Your Dream Car In Easy Way Don't Drem It Drive It!</h3>
+  <button type="button" class="btn btn-lg btn-dark btn-outline-success buy-btn"><i class="fa-solid fa-car"></i> <span>Order Now</span></button>
+</section>
+<!--contact-->
+<section class="contact" id="contact">
+  <h1 class="heading">contact us</h1>
+  <div class="row">
+    <div class="col-lg-6">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62186.19912430573!2d80.09600600263822!3d13.058734294387863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267c6c047d1d9%3A0xa6e3b063a6c720ee!2sHYUNDAI%20CAR%20SHOW%20ROOM!5e0!3m2!1sen!2sin!4v1663503109770!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" ></iframe>
+      </div>
+      <div class="col-lg-6">
+      <form action="">
+          <h2>Communicate With Us</h3>
+          <input type="text" placeholder="your name" class="box">
+          <input type="email" placeholder="your email" class="box">
+          <input type="tel" placeholder="subject" class="box">
+          <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+          <input type="submit" value="send message" class="btn btn-lg btn-dark btn-outline-success">
+      </form>
+      </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer id="footer">
+  <h2 style="color:#277Bc0">Contact</h2>
+  <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=twitter"><i class="fa-brands fa-twitter footer-icon"></i> </a>
+  <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=facebook"><i class="fa-brands fa-facebook footer-icon"></i> </a>
+  <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=instagram"><i class="fa-brands fa-instagram footer-icon"></i> </a>
+  <a href="https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=gmail"><i class="fa-solid fa-square-envelope footer-icon"></i></a>
+</footer>
+<!--js--->
+  <script src="script.js"></script>
+</body>
+</html>
+      
+    
+
+
+
